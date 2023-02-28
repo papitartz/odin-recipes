@@ -1,15 +1,21 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: grey;
     width: 60%;
     margin: auto;
+    font-size: 2rem;
 }
 
 #main-img {
-    width: 300px;
-    height: 300px;
+    width: 450x;
+    height: 450px;
     display: flex;
     justify-content: center;
     margin: auto;
+    border-radius: 95%;
 
 }
 
@@ -25,7 +31,25 @@ body {
 #link-wrapper {
     display: flex;
     border: 1px solid black;
-    width: 40%;
+    width: 450px;
     justify-content: center;
     margin: auto;
+    border-radius: 5%;
+}
+
+#recipe-links {
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:visited {
+    color: inherit;
+}
+
+#recipe-links li {
+    padding: 10px;
 }
