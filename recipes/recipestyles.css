@@ -1,0 +1,10 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: grey;
+    width: 60%;
+    margin: auto;
+    font-size: 2rem;
+}
